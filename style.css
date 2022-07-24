@@ -1,0 +1,123 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+body, button {
+	font-family: 'Poppins', sans-serif;	
+}
+
+header {
+	margin: auto;
+	display: flex;
+	align-items: center;
+	width: 90%;
+	height: 10vh;
+
+	
+}
+
+nav {
+	flex: 2;
+}
+
+.navlinks{
+	list-style-type: none;
+	justify-content: flex-end;
+	align-items: center;
+	
+}
+
+.navlink{
+	margin-left: 100px;
+	padding-right: 40px;
+	
+	cursor: pointer;
+}
+
+nav a{
+	text-decoration: none;
+	color: gray;
+}
+
+.cart {
+	flex: 1;
+	justify-content: flex-end;
+	height: 30px;
+	width: 30px;
+	
+}
+
+
+
+.cartsvg, .navlinks {
+	display: flex;
+}
+
+.shoes {
+	display: flex;
+	justify-content: flex-end;
+	flex: 1;
+	height: 60vh;
+
+}
+
+.shoesimg {
+	
+	height: 878px;
+	width: 748px;
+	margin-top: -10px;
+
+}
+
+section{
+	
+	padding-left: 60px;
+	position: relative;
+	
+}
+h2{
+	font-size: 44px;
+	font-weight: 500;
+	color: #81363b;
+	padding-bottom: 10px;
+
+}
+
+p{
+	font-size: 34px;
+	font-weight: 200;
+	color: #81363b;
+}
+
+.cta{
+	padding: 50px 0px 0px 0px;
+}
+
+.cta-shop{
+	background-color: #81363b;
+	width: 150px;
+	height: 50px;
+	color: white;
+	font-size: 20px;
+	border: 2px solid #81363b;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+.cta-learn {
+	width: 150px;
+	background-color: white;
+	height: 50px;
+	color: gray;
+	font-size: 20px;
+	border: 2px solid #81363b;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 15px;
+
+
+}
